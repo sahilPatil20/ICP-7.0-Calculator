@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.calculator {
+   width: 450px;
+   height: 500px;
+   background-color: #000;
+   margin: 20px auto;
+   border-radius: 15px;
+}
+
+.input-display {
+    width: 85%;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.equals {
+    height: 100px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    margin: 15px;
+}
