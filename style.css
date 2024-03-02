@@ -6,24 +6,30 @@ h1 {
 .calculator {
    width: 450px;
    height: 500px;
-   background-color: #000;
+   background-color: #000033;
    margin: 20px auto;
    border-radius: 15px;
 }
 
 .input-display {
-    width: 85%;
+    padding-top: 20px;
+}
+
+.screen {
+    width: 380px;
+    text-align: right;
+    background-color: #a1af77;
     display: block;
     margin: 10px auto;
-    padding: 20px;
-    border-radius: 10px;
-    border: none;
+    font-size: 25px;
+    padding: 10px;
 }
 
 .btns {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .btn {
@@ -32,7 +38,7 @@ h1 {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin: 15px;
 }
